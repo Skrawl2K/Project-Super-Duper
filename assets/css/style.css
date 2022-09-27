@@ -1,0 +1,139 @@
+/* ================= General Styles===================== */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: gilda_display;
+    src: url("../fonts/GildaDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: maven_pro;
+    src: url("../fonts/MavenPro-VariableFont_wght.ttf");
+}
+
+/* ================= Header Styles===================== */
+
+
+header {
+    background-color: #333;
+    padding: 25px 0
+}
+
+header section {
+    background-image: linear-gradient(to bottom left, lightblue, blue, rgb(192, 30, 233));
+    text-align: center;
+    color: #ffffff;
+    margin: 50px 450px;
+    padding: 13px 25px;
+}
+
+/* header section background-image:hover {
+    background-image: linear-gradient(to bottom left, rgb(192, 30,233), blue, lightblue
+        } */
+
+header h1 {
+    font-family: gilda_display;
+    font-size: 55px;
+}
+
+
+header p {
+    font-family: maven_pro;
+    font-size: 0.75em;
+}
+
+header ul li {
+    list-style: none;
+    text-align: right;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    font-family: maven_pro;
+    font-size: 0.8em;
+}
+
+header ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: #ffffff;
+}
+
+/* ================= Main Styles===================== */
+
+main {
+    background-color: #ffffff;
+    background-image: url("../img/projects_background.svg");
+    background-repeat: no-repeat;
+    background-size: 50vh;
+    width: 100%;
+    padding: 50px 50px;
+    margin: 50px 50px;
+}
+
+main h2 {
+    font-size: 3em;
+}
+
+main article {
+    margin-right: 600px;
+}
+
+main article p:nth-of-type(1) {
+    font-family: maven_pro;
+    font-size: 0.9em;
+    text-align: left;
+    margin: 50px 50px 0px 0px;
+    padding: 50px 100px 50px 10px;
+}
+
+main article p:nth-of-type(2) {
+    font-family: maven_pro;
+    font-size: 0.9em;
+    text-align: left;
+    margin: 25px 50px 0 0;
+}
+
+/* _______________Example-Section_________________ */
+
+main section:nth-of-type(1) {
+    background-image: url("../img/horserace_background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 50px 50px 10px 0px;
+    padding: 10px 10px 10px 0px;
+    background-size: 80%;
+    background-position: center;
+}
+
+/* main section:nth-last-of-type(1) p {
+    font-family: "maven_pro";
+} */
+
+main section:nth-of-type(2) {
+    background-image: url("../img/agrar_background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 50px 50px;
+    background-size: 80%;
+    background-position: center;
+    background-border-radius: 15px 15px 15px 15px;
+}
+
+main section:nth-of-type(3) {
+    background-image: url("../img/woman_background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 50px 50px;
+    background-size: 80%;
+    background-position: center;
+}
