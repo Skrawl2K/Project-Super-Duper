@@ -28,13 +28,16 @@ header section {
     background-image: linear-gradient(to bottom left, lightblue, blue, rgb(192, 30, 233));
     text-align: center;
     color: #ffffff;
-    margin: 50px 450px;
+    margin: 50px 550px;
     padding: 13px 25px;
+    height: 10%;
+    width: 22%;
+    background-size: 100% auto;
 }
 
-/* header section background-image:hover {
-    background-image: linear-gradient(to bottom left, rgb(192, 30,233), blue, lightblue
-        } */
+header section:hover {
+    background-image: linear-gradient(to bottom left, rgb(192, 30, 233), blue, lightblue)
+}
 
 header h1 {
     font-family: gilda_display;
@@ -74,7 +77,7 @@ main {
     background-size: 50vh;
     width: 100%;
     padding: 50px 50px;
-    margin: 50px 50px;
+    margin: 50px 0px;
 }
 
 main h2 {
@@ -82,7 +85,7 @@ main h2 {
 }
 
 main article {
-    margin-right: 600px;
+    margin-right: 500px;
 }
 
 main article p:nth-of-type(1) {
