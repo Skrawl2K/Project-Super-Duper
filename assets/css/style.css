@@ -102,7 +102,7 @@ main article p:nth-of-type(2) {
 
 /* _______________Example-Section_________________ */
 
-main section:nth-of-type(1) {
+/* main section:nth-of-type(1) {
     background-image: url("../img/horserace_background.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -111,13 +111,13 @@ main section:nth-of-type(1) {
     padding: 10px 10px 10px 0px;
     background-size: 80%;
     background-position: center;
-}
+} */
 
 /* main section:nth-last-of-type(1) p {
     font-family: "maven_pro";
 } */
 
-main section:nth-of-type(2) {
+/* main section:nth-of-type(2) {
     background-image: url("../img/agrar_background.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -126,9 +126,9 @@ main section:nth-of-type(2) {
     background-size: 80%;
     background-position: center;
     background-border-radius: 15px 15px 15px 15px;
-}
+} */
 
-main section:nth-of-type(3) {
+/* main section:nth-of-type(3) {
     background-image: url("../img/woman_background.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -136,4 +136,46 @@ main section:nth-of-type(3) {
     margin: 50px 50px;
     background-size: 80%;
     background-position: center;
+} */
+
+main section:nth-of-type(1) img {
+    margin: 300px 0px 45px 0px;
+    border-radius: 15px 15px;
+}
+
+main section:nth-of-type(1) h1 {
+    font-size: 2.5em;
+    padding-bottom: 15px;
+}
+
+main section:nth-of-type(1) p {
+    font-family: maven_pro;
+}
+
+main section:nth-of-type(2) img {
+    margin: 300px 0px 45px 0px;
+    border-radius: 15px 15px;
+}
+
+main section:nth-of-type(2) h1 {
+    font-size: 2.5em;
+    padding-bottom: 15px;
+}
+
+main section:nth-of-type(2) p {
+    font-family: maven_pro;
+}
+
+main section:nth-of-type(3) img {
+    margin: 300px 0px 45px 0px;
+    border-radius: 15px 15px;
+}
+
+main section:nth-of-type(3) h1 {
+    font-size: 2.5em;
+    padding-bottom: 15px;
+}
+
+main section:nth-of-type(3) p {
+    font-family: maven_pro;
 }
